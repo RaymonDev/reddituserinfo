@@ -1,5 +1,5 @@
 # RedditUserInfo
-This script gathers information about a specified reddit user. Just enter the username and choose the mode that you prefer.
+This script in Python gathers information about a specified reddit user. Just enter the username and choose the mode that you prefer.
 
 ## How it works
 First, a bot is initzialiced in read-only mode. The user inputs a Reddit username and then specifies the amount of information they want (complete or rapid). "Complete" gathers information about the user and information about every post the user has made. "Rapid" gathers information about the user and also gathers all subreddits that the user has posted in.
