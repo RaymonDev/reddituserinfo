@@ -8,8 +8,6 @@ First, a bot is initzialiced in read-only mode. The user inputs a Reddit usernam
 
 This program requires PRAW
 
-.. code-block:: bash
-
     pip install praw
 
 ### Installing
