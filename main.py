@@ -105,9 +105,10 @@ if trophiestring == "":
 #displays the title
 title()
 
+#displays the user info
 print("\nUser Info: ")
 print("\n - Username: " + str(redditorname))
-print("\n - Account created the: " + str(datetime.datetime.utcfromtimestamp(redditor.created_utc).strftime('%d-%m-%Y at %H:%M'))) #:%S
+print("\n - Account created the: " + str(datetime.datetime.utcfromtimestamp(redditor.created_utc).strftime('%d-%m-%Y at %H:%M'))) #transforming the utc time to comprensive text
 print("\n - Karma of the user: " + str(redditor.link_karma))
 print("\n - Comment Karma: " + str(redditor.comment_karma))
 print("\n - Is a Reddit employee: " + str(redditor.is_employee))
@@ -117,8 +118,9 @@ print("\n------------------------------------------------")
 
 if elec == "c":
 
+    #for every id in the array previously made (line 88)
     for id in array_id:
-        submission = reddit.submission(id=id)
+        submission = reddit.submission(id=id) #get information of post from id
         print("\n-----------------------------------------------------")
         print("\n* Post Subreddit: " + submission.subreddit_name_prefixed)
         print("\n\t- Title: " + str(submission.title))
@@ -139,7 +141,7 @@ elif elec == "r":
         print(submission.subreddit_name_prefixed)  # shows the subreddits
 
 else:
-    print("Wrong letter, try again.")
+    print("Wrong letter, try again.") #checks for a wrong letter
 
 input("Press Enter to continue...")
 exit()
