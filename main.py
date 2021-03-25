@@ -47,8 +47,8 @@ def title():
 
 #authorise the bot, read only mode
 reddit = praw.Reddit(
-    client_id="-tZytJ1xqJR9Ag",
-    client_secret="y8JlIJvAleNkyPljUlxFy10jglaohQ",
+    client_id="YOUR CLIENT ID",
+    client_secret="YOUR SECRET CLIENT CODE",
     user_agent="testscript by u/Raymon22",
 )
 
