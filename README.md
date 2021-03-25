@@ -4,6 +4,10 @@ This script in Python gathers information about a specified reddit user. Just en
 ## How it works
 First, a bot is initzialiced in read-only mode. The user inputs a Reddit username and then specifies the amount of information they want (complete or rapid). "Complete" gathers information about the user and information about every post the user has made. "Rapid" gathers information about the user and also gathers all subreddits that the user has posted in.
 
+<div class="text-red mb-2">
+  .text-red on white
+</div>
+
 ### Requisites:
 
 This program requires PRAW
