@@ -2,7 +2,9 @@
 This script in Python gathers information about a specified reddit user. Just enter the username and choose the mode that you prefer.
 
 
+.
 ## Before using the bot, you will have to create your own Reddit App. Click [here](https://www.reddit.com/prefs/apps) to create it
+.
 
 
 ## How it works
