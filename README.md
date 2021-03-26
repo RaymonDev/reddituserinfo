@@ -23,6 +23,7 @@ This program requires PRAW
 - A command prompt window should appear.
 
 ### How to use:
+- Create the reddit bot
 - Execute the script (a command prompt window should appear)
 - Introduce the username of the person that you want the information from.
 - Press enter
