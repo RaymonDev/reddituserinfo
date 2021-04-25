@@ -3,7 +3,7 @@ This script in Python gathers information about a specified reddit user. Just en
 
 
 .
-## Before using the bot, you will have to create your own Reddit App, and enter the Cliend ID and the secret token in the specified section of the code. Click [here](https://www.reddit.com/prefs/apps) to create it
+## Before using the bot, you need to create your own Reddit App, and enter the Cliend ID and the secret token in the specified section of the code. Click [here](https://www.reddit.com/prefs/apps) to create it
 .
 
 
